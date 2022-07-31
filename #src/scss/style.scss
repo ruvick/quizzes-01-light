@@ -178,7 +178,8 @@ body {
 //===================================================================================================================================
 
 .about {
-	padding: 20px 0 176px 0;
+	padding: 0px 0 176px 0;
+
 }
 
 .about__title {
@@ -209,20 +210,26 @@ body {
 		font-weight: 400;
 	}
 
-	&::before {
-		content: "";
-		float: left;
-		position: absolute;
-		top: 21px;
-		left: 0;
-		width: 27px;
-		height: 2px;
-		background: #CFAB78;
-	}
+	// &::before {
+	// 	content: "";
+	// 	float: left;
+	// 	width: 27px;
+	// 	height: 2px;
+	// 	background: #CFAB78;
+	// 	margin-top: 20px;
+	// 	margin-right: 12px;
+	// 	margin-left: -40px;
+	// }
+}
+
+.about__subtitle-trait {
+	color: #CFAB78;
+	margin-right: 12px;
+	margin-left: -40px;
 }
 
 .about__btn {
-	margin-top: 20px;
+	margin-top: 30px;
 	box-shadow: 0px 7px 0px -1px #7d583d;
 
 	&::after {
