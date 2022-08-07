@@ -3327,7 +3327,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     background-image: url("../img/bg/main-bg-mob-02.jpg");
   }
   .page-thanks {
-    background-image: url("../img/bg/main-bg-mob-thanks");
+    background-image: url("../img/bg/main-bg-mob-thanks.jpg");
   }
   .header {
     position: absolute;
@@ -3452,6 +3452,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
   .footer__img-mob {
     top: -5%;
+  }
+  .about__btn-thanks {
+    min-height: 87px;
   }
 }
 @media (max-width: 460px) {
